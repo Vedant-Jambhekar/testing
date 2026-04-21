@@ -23,7 +23,7 @@ const navigate = useNavigate()
         <button onClick={()=>{
             navigate(`/messages/${message.from_user_id._id}`);
             toast.dismiss(t.id)
-        }} className='p-4 text-indigo-600 font-semibold'>
+        }} className='p-4 text-orange-600 font-semibold'>
             Reply
         </button>
       </div>
